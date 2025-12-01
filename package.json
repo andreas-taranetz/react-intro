@@ -17,12 +17,12 @@
 		"@slidev/theme-default": "latest",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0"
+		"qrcode.vue": "^3.6.0"
 	},
 	"devDependencies": {
 		"@types/react": "^19.2.7",
 		"@types/react-dom": "^19.2.3",
 		"prettier": "^3.7.1",
 		"prettier-plugin-slidev": "^1.0.5",
-		"qrcode.vue": "^3.6.0"
 	}
 }

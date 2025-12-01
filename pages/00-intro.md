@@ -20,3 +20,4 @@ url: https://andreas.taranetz.com
 <QRCode value="https://andreas-taranetz.github.io/react-intro/" :size="400" :render-as="svg" :margin="1"/>
 
 <p text-center>👆 Link to this slide deck</p>
+†
