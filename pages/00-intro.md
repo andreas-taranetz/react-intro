@@ -17,6 +17,6 @@ url: https://andreas.taranetz.com
 
 ## Slides
 
-![QR code containing a link to the slides](/qr-code.png)
+<QRCode value="https://andreas-taranetz.github.io/react-intro/" :size="400" :render-as="svg" :margin="1"/>
 
 <p text-center>👆 Link to this slide deck</p>
