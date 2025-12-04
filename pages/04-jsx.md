@@ -110,31 +110,43 @@ layout: two-cols
 
 # How pixels are made
 
-1. Virtual DOM is recalculated
+<v-click>
 
-    - during initial render
-    - when state updates occur
+1. **Trigger**
+    - _making an order_
+    - during initial render → start at root
+    - when state updates → start where the update occured
+</v-click>
 
-2. Render Phase (done by React):
+<v-click>
 
-    - create / update the element tree
+2. **Render Phase** <small>done by React</small>
+    - _cooking the new components_
+    - create / update the virtual DOM
     - check for differences to the current tree
+</v-click>
 
-3. Commit Phase (done by ReactDOM):
+<v-click>
 
+3. **Commit Phase** <small>done by ReactDOM</small>
+    - _serving the DOM to the browser_
     - create / update / delete DOM elements
     - only those that actually need to change
+</v-click>
 
-4. Painting the document (done by the browser)
+<v-click>
+
+4. Browser is _painting_ pixels on the screeen
+</v-click>
 
 <small>see also [react.dev/learn/render-and-commit](https://react.dev/learn/render-and-commit)</small>
 
 ::right::
 
 <div ml-10 flex flex-col gap-3>
-<img width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
-<img width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
-<img width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
+<img v-click=1 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
+<img v-click=2 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
+<img v-click=3 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
 </div>
 
 ---
