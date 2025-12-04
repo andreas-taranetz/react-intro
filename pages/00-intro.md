@@ -15,9 +15,8 @@ layout: iframe-right
 url: https://andreas.taranetz.com
 ---
 
-## Slides
+## <code>> whoami</code>
 
-<QRCode value="https://andreas-taranetz.github.io/react-intro/" :size="400" :render-as="svg" :margin="1"/>
+<QRCode mt-20 m-auto value="https://andreas-taranetz.github.io/react-intro/" :size="300" :render-as="svg" :margin="1"/>
 
 <p text-center>👆 Link to this slide deck</p>
-†
