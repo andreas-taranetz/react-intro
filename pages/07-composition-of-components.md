@@ -1,40 +1,13 @@
 ---
-layout: image-right
-image: ./building-blocks.png
 ---
 
 # Composition of components
 
 React applications are a tree of components
-<div mt-10>
-```mermaid
-    mindmap
-    root((App))
-        Header
-            Logo
-            Nav
-            User Profile
-                Profile Image
-        Main Content
-            Feed
-                Post
-                Post
-                Post
-                    Content
-                    Author
-                        Profile Image
-                    Stats
-                    Like Button
-                    Share Button
-            Aside section
-                Suggested Account
-                    Follow Button
-                    Preview
-                    Profile Image
-```
-</div>
 
-<small abs-bl ml-55 mb-5>see also examples at [react.dev/learn](https://react.dev/learn)</small>
+<img src='https://react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fpreserving_state_dom_tree.png&w=1080&q=75'>
+
+<small abs-bl ml-15 mb-5>see also examples at [react.dev/learn/understanding-your-ui-as-a-tree](https://react.dev/learn/understanding-your-ui-as-a-tree)</small>
 
 ---
 
