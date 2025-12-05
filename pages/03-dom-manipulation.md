@@ -226,6 +226,7 @@ The next slide is a bit graphic
 
 ---
 layout: two-cols
+zoom: 1.2
 ---
 
 1. **Trigger**
@@ -252,15 +253,18 @@ layout: two-cols
 <v-click>
 
 4. Browser is _painting_ pixels on the screen
-
-<small>see also [react.dev/learn/render-and-commit](https://react.dev/learn/render-and-commit)</small>
 </v-click>
 
 ::right::
 
 <div ml-15 flex flex-col gap-3>
-<img width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
-<img v-click=1 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
-<img v-click=2 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
+<img width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
+<img v-click=1 width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
+<img v-click=2 width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
 </div>
+
+<small v-click=3>
+see also <a href="https://react.dev/learn/render-and-commit">react.dev/learn/render-and-commit</a>
+</small>
+
 ---

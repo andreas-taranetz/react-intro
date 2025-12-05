@@ -68,15 +68,17 @@ transition: view-transition
 
 ## When and where do we render the HTML, CSS and JS? {.inline.view-transition-title}
 
-<v-clicks mt-10 text-2xl>
+There are so many options
 
-- Server side rendering (SSR)
-- Client side rendering (CSR)
-- Static side generation (SSG)
-- All of the above?
+<v-clicks mt-10 text-xl>
+
+- Server side rendering (SSR) <small ml-5>← how the web worked in the beginning</small>
+- Client side rendering (CSR) <small ml-5>← how <logos-angular/> and <logos-react/> worked in the beginning</small>
+- Static site generation (SSG) <small ml-5>← how <logos-astro/> / <logos-eleventy/> / <logos-hugo/> / <logos-jekyll/> work </small>
+- All of the above <small ml-31>← how most of the web should work</small>
 </v-clicks>
 
-<img abs-br src="/why-not-both.png" width=500 v-click=4>
+<img abs-br src="/why-not-both.png" width=400 v-click=4>
 
 ---
 
@@ -84,7 +86,7 @@ transition: view-transition
 
 on your specific use case
 
-<v-clicks>
+<v-clicks text-xl>
 
 - How often is your content changing
 - How big is your website / individual pages

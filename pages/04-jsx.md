@@ -2,11 +2,11 @@
 layout: section
 ---
 
-# What if there's a better way to write components?
+# What if there is a better way to write components?
 
 ---
 
-# A better way to write react components <span v-click="1">with JSX</span>
+# A better way to write react components <span v-motion :initial="{opacity: 0}" :click-1="{opacity: 1}">with JSX</span>
 
 We usually put each component in a separate file named after the component
 
