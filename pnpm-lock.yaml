@@ -17,6 +17,9 @@ importers:
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
+      qrcode.vue:
+        specifier: ^3.6.0
+        version: 3.6.0(vue@3.5.25(typescript@5.9.3))
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -36,9 +39,6 @@ importers:
       prettier-plugin-slidev:
         specifier: ^1.0.5
         version: 1.0.5(prettier@3.7.1)
-      qrcode.vue:
-        specifier: ^3.6.0
-        version: 3.6.0(vue@3.5.25(typescript@5.9.3))
 
 packages:
 
