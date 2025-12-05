@@ -90,7 +90,7 @@ on your specific use case
 
 - How often is your content changing
 - How personalized is the content
-How big is your website / individual pages
+- How big is your website / individual pages
 - How much compute is available
 - How high is the bandwidth
 - Does it need to work without <logos-javascript />
