@@ -226,7 +226,6 @@ The next slide is a bit graphic
 
 ---
 layout: two-cols
-zoom: 1.2
 ---
 
 1. **Trigger**
