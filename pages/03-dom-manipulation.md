@@ -256,10 +256,10 @@ layout: two-cols
 
 ::right::
 
-<div ml-15 flex flex-col gap-3>
-<img width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
-<img v-click=1 width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
-<img v-click=2 width="120" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
+<div ml-15 flex flex-col gap-5>
+<img width="130" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
+<img v-click=1 width="130" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
+<img v-click=2 width="130" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
 </div>
 
 <small v-click=3>
