@@ -17,8 +17,6 @@ choose framework `react`
 
 choose a name, e.g.: `playground`
 
-The output should look something like this:
-
 ```bash
 ◇  Starting dev server...
 
@@ -38,6 +36,4 @@ The output should look something like this:
 layout: iframe
 url: https://19.react.dev/
 zoom: 0.6
----
-
 ---

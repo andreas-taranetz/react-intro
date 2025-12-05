@@ -1,4 +1,12 @@
-# React hooks 🪝
+---
+layout: section
+transition: view-transition
+---
+# React hooks 🪝 {.inline.view-transition-title}
+
+---
+
+## React hooks 🪝 {.inline.view-transition-title}
 
 functions starting with `use...`
 
@@ -22,6 +30,6 @@ layout: iframe-right
 url: https://usehooks.com/
 ---
 
-# Use prebuilt hooks
+## Use prebuilt hooks
 
 [usehooks.com](https://usehooks.com/)

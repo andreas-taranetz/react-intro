@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# What if there's a better way?
+# What if there's a better way to write components?
 
 ---
 
@@ -84,74 +84,7 @@ introduced in React version 16
 
 ---
 
-# What is `React.createElement()` doing?
-
-Inputs:
-
-`type` React component type: tag name (`div`, `span`, ...) or other React component names
-
-`props` Object or null
-
-`children` optional list of child nodes
-
-<v-click>
-
-```js {monaco-run} 
-import { createElement } from "react"
-
-console.log(createElement("span", { className: 'bg-red' }, 'Hello World'))
-```
-
-</v-click>
-
----
-layout: two-cols
----
-
-# How pixels are made
-
-<v-click>
-
-1. **Trigger**
-    - _making an order_
-    - during initial render → start at root
-    - when state updates → start where the update occured
-</v-click>
-
-<v-click>
-
-2. **Render Phase** <small>done by React</small>
-    - _cooking the new components_
-    - create / update the virtual DOM
-    - check for differences to the current tree
-</v-click>
-
-<v-click>
-
-3. **Commit Phase** <small>done by ReactDOM</small>
-    - _serving the DOM to the browser_
-    - create / update / delete DOM elements
-    - only those that actually need to change
-</v-click>
-
-<v-click>
-
-4. Browser is _painting_ pixels on the screeen
-</v-click>
-
-<small>see also [react.dev/learn/render-and-commit](https://react.dev/learn/render-and-commit)</small>
-
-::right::
-
-<div ml-10 flex flex-col gap-3>
-<img v-click=1 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit1.png">
-<img v-click=2 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit2.png">
-<img v-click=3 width="150" alt="" src="https://react.dev/images/docs/illustrations/i_render-and-commit3.png" title="Commit phase"/>
-</div>
-
----
-
-# More on JSX / TSX
+# JSX + TypeScript = TSX
 
 A typical component
 
@@ -173,6 +106,9 @@ function PageHeader(props: PageHeaderProps) {
 
 export default PageHeader;
 
+```
+
+```tsx
 // within another component
 ...
 <PageHeader title={"Home"} />;
@@ -180,28 +116,36 @@ export default PageHeader;
 ```
 
 ---
-layout: two-cols
+layout: image-left
+image: /expressions.png
+backgroundSize: contain
 ---
 
-# Allowed in JSX / TSX
+## Allowed in JSX / TSX
 
 <span/>
 
-![Expressions](/expressions.png)
+- Other React components
+- Built in components like HTML elements
+- Expressions within `{}` e.g.:
+  * `<h1>{"Hi" + props.name}<h1>`
+  * `{count > 1 ? 'likes' : 'like'}`
 
-::right::
 
-<div mt-14 ml-5>
-
-Other React components
-
-Built in components like HTML elements
-
-Expressions within `{}` e.g.
-
-`<h1>{"Hi" + props.name}<h1>`
-
+<div mt-2 v-click>
+<small>
 Expressions can also return React components as their result, e.g.:
+</small>
 
-`{guests.map((g) => <Greet name={g.name}/>}`
+```
+{guests.map((g) => <Greet name={g.name}/>)
+```
+</div>
+
+<div mt-10 v-click>
+<strong>But no statements</strong>
+
+- if
+- switch
+- for
 </div>

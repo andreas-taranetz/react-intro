@@ -12,12 +12,12 @@ layout: section
 
 - 📚 JavaScript library for building user interfaces (not only web)
 - ✨ Does **not require** a compiler or build step
-- 🛠️ Developed by Meta <logos-meta bg-white rounded p-0.2/>
+- 🛠️ Developed by Meta <logos-meta p-0.2/>
 - 🗓️ Released 2013-05-29
 - ✅ Current stable version **19.2**
-- Used by other meta-frameworks: <span text-gray text-sm>// not developed by <logos-meta bg-white rounded p-0.2/></span>
-    - Next <logos-nextjs bg-white rounded p-0.2/>
-    - Remix <logos-remix bg-white rounded p-0.2/>
+- Used by other meta-frameworks: <span text-gray text-sm>// not developed by <logos-meta p-0.2/></span>
+    - Next <logos-nextjs p-0.2/>
+    - Remix <logos-remix p-0.2/>
     - Gatsby <logos-gatsby />
 
 </v-clicks>
@@ -26,7 +26,7 @@ layout: section
 
 <h1>
 <span v-mark="{color: 'red', type: 'strike-through', strokeWidth: 10}">Interest</span>
-<span ml-5 v-after="1" fade-in>Searches necessary to get it to work</span>
+<span ml-5 v-after="1">Searches necessary to get it to work</span>
 </h1>
 
 [Google trends](https://trends.google.com/trends/explore?q=react,angular)
