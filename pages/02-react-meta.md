@@ -17,6 +17,7 @@ layout: section
 - ✅ Current stable version **19.2**
 - Used by other meta-frameworks: <span text-gray text-sm>// not developed by <logos-meta p-0.2/></span>
     - Next <logos-nextjs p-0.2/>
+    - React Router <logos-react-router p-0.2/>
     - Remix <logos-remix p-0.2/>
     - Gatsby <logos-gatsby />
 

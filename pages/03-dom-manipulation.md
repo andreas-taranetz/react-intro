@@ -231,8 +231,8 @@ zoom: 1.2
 
 1. **Trigger**
     - _"making an order"_
-    - initial render → start at root
-    - state updates → start where the update occured
+    - on initial render → start at root
+    - after state updates → start where the update occured
 
 <v-click>
 
