@@ -8,6 +8,7 @@ info: |
 drawings:
   persist: false
 transition: fade
+aspectRatio: 16/9
 mdc: true
 remoteAssets: true
 monacoRunAdditionalDeps:

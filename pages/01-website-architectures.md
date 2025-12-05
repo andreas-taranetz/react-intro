@@ -14,7 +14,7 @@ clicks: 1
 <section text-6xl mt-30 text-center>
 <span inline-block
   v-motion
-  :initial="{x: 118}"
+  :initial="{x: 134}"
   :click-1="{x: -14}">to provide</span>
 <span inline-block 
   v-motion
@@ -22,7 +22,7 @@ clicks: 1
   :click-1="{opacity: 1}">interactive</span>
 <span inline-block
   v-motion
-  :initial="{x: -118}"
+  :initial="{x: -134}"
   :click-1="{x: 14}">content</span>
 <br/>
 <button @click="$slidev.nav.next" title="Next slide" class="slidev-icon-btn" v-motion :initial="{opacity: 1}" :click-1="{opacity: 0}">
