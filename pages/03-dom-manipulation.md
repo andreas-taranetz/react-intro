@@ -80,7 +80,7 @@ span.className = "bg-red";
 root.append(span);
 ```
 
-```js {6|4}
+```js {6-10|4}
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -95,7 +95,7 @@ const SpanComponent = React.createElement(
 root.append(span);
 ```
 
-```js {4|8}
+```js {4|12}
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -110,7 +110,7 @@ const SpanComponent = React.createElement(
 root.append(span);
 ```
 
-```js {8|*}
+```js {12|*}
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -218,7 +218,7 @@ console.log(createElement("span", { className: 'bg-red' }, 'Hello World'))
 ---
 layout: section
 ---
-## How pixels are made
+# How pixels are made
 
 <small abs-br m-5>
 The next slide is a bit graphic
