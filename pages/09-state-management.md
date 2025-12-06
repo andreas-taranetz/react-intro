@@ -161,7 +161,7 @@ export const LikeCounter = () => {
   return (
     <>
       <span>{count}</span>
-      <button onClick={() => countUp()}>+1</button>
+      <button onClick={countUp}>+1</button>
     </>
   );
 };
@@ -180,7 +180,7 @@ export const LikeCounter = () => {
   return (
     <>
       <span>{count}</span>
-      <button onClick={() => countUp()}>+1</button>
+      <button onClick={countUp}>+1</button>
     </>
   );
 };
