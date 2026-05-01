@@ -8,6 +8,11 @@ overrides:
   dompurify: ^3.3.2
   lodash-es: ^4.18.0
 
+patchedDependencies:
+  '@slidev/cli@52.15.0':
+    hash: b655c5bd13f0bd39dbc2aa0dcfd4d70fb08fef049a2cbfafdd9208a508d3d3a5
+    path: patches/@slidev__cli@52.15.0.patch
+
 importers:
 
   .:
@@ -15,9 +20,12 @@ importers:
       '@iconify-json/logos':
         specifier: latest
         version: 1.2.11
+      '@iconify-json/simple-icons':
+        specifier: latest
+        version: 1.2.80
       '@slidev/cli':
         specifier: ^52.15.0
-        version: 52.15.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)
+        version: 52.15.0(patch_hash=b655c5bd13f0bd39dbc2aa0dcfd4d70fb08fef049a2cbfafdd9208a508d3d3a5)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -37,6 +45,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.14)
+      playwright-chromium:
+        specifier: ^1.59.1
+        version: 1.59.1
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
@@ -539,6 +550,9 @@ packages:
 
   '@iconify-json/ph@1.2.2':
     resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
+
+  '@iconify-json/simple-icons@1.2.80':
+    resolution: {integrity: sha512-iglncJJ6X/dVuzFDU32MrHwwo4RBwivGf108dgyYg+HKS78ifx0h7sTenpDZMVT+UhdS6CSgZcvY/SvRXlIEUg==}
 
   '@iconify-json/svg-spinners@1.2.4':
     resolution: {integrity: sha512-ayn0pogFPwJA1WFZpDnoq9/hjDxN+keeCMyThaX4d3gSJ3y0mdKUxIA/b1YXWGtY9wVtZmxwcvOIeEieG4+JNg==}
@@ -2493,6 +2507,16 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
+  playwright-chromium@1.59.1:
+    resolution: {integrity: sha512-aTsPenkxsr9np4vIHuMEND6comqepVvzbL0MwkozFNliwGZjTqrBUQ7TF6Ay1ZIU/e7rcUpGsCTUG+nqwxG2Xw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  playwright-core@1.59.1:
+    resolution: {integrity: sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
 
@@ -3527,6 +3551,10 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
+  '@iconify-json/simple-icons@1.2.80':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/svg-spinners@1.2.4':
     dependencies:
       '@iconify/types': 2.0.0
@@ -3851,7 +3879,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slidev/cli@52.15.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)':
+  '@slidev/cli@52.15.0(patch_hash=b655c5bd13f0bd39dbc2aa0dcfd4d70fb08fef049a2cbfafdd9208a508d3d3a5)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)':
     dependencies:
       '@antfu/ni': 30.1.0
       '@antfu/utils': 9.3.0
@@ -3924,6 +3952,8 @@ snapshots:
       vue: 3.5.33(typescript@5.9.3)
       yaml: 2.8.3
       yargs: 18.0.0
+    optionalDependencies:
+      playwright-chromium: 1.59.1
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -5965,6 +5995,12 @@ snapshots:
       pathe: 2.0.3
 
   plantuml-encoder@1.4.0: {}
+
+  playwright-chromium@1.59.1:
+    dependencies:
+      playwright-core: 1.59.1
+
+  playwright-core@1.59.1: {}
 
   points-on-curve@0.2.0: {}
 

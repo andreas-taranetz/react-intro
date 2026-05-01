@@ -19,8 +19,7 @@ layout: section
     - Next <logos-nextjs p-0.2/>
     - React Router <logos-react-router p-0.2/>
     - Remix <logos-remix p-0.2/>
-    - Gatsby <logos-gatsby />
-
+    - Tanstack Start <simple-icons-tanstack p-0.2/>
 </v-clicks>
 
 ---

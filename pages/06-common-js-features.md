@@ -7,6 +7,7 @@ layout: section
 these are not React features
 
 ---
+
 layout: two-cols
 ---
 
@@ -21,11 +22,11 @@ class Present {
   // ...
 }
 
-const HOLIDAY = new Date("2024-12-24")
+const HOLIDAY = new Date("2024-12-24");
 
 const formatDate = (date) => {
   // ...
-}
+};
 
 function unwrap(present) {
   // ...
@@ -37,20 +38,19 @@ export class Present {
   // ...
 }
 
-export const HOLIDAY = new Date("2024-12-24")
+export const HOLIDAY = new Date("2024-12-24");
 
 export const formatDate = (date) => {
   // ...
-}
+};
 
 export function unwrap(present) {
   // ...
 }
-
 ```
 
 ```js
-export default const Present = ({color}) => {
+export default Present = ({color}) => {
     return (
         // ...
     )
@@ -74,7 +74,7 @@ available in another file
 import {
   Present as HolidayPresent, // rename for this file
   HOLIDAY,
-  unwrap
+  unwrap,
 } from "./example";
 
 // ...
@@ -105,11 +105,10 @@ import HolidayPresent from "./present";
 
 return (
   <div>
-    < HolidayPresent color="red" />
+    <HolidayPresent color="red" />
   </div>
 );
 ```
-
 ````
 
 </div>
@@ -123,7 +122,6 @@ return (
 turn any if statement into an expression
 
 ````md magic-move
-
 ```js
 if (condition) {
   /* then */
@@ -152,18 +150,21 @@ if (presents.length === 1) {
 }
 
 return (
-  <span>{presents.length} {presentCountString}</span>
-)
+  <span>
+    {presents.length} {presentCountString}
+  </span>
+);
 ```
 
 ```jsx
 //...
 
 return (
-  <span>{presents.length} {presents.length === 1 ? "present" : "presents"}</span>
-)
+  <span>
+    {presents.length} {presents.length === 1 ? "present" : "presents"}
+  </span>
+);
 ```
-
 ````
 
 </v-click>
@@ -175,7 +176,7 @@ return (
 condition && value
 
 ```js {monaco-run} {autorun:false}
-console.log(true && false)
+console.log(true && false);
 ```
 
 <div v-click="1" mt-10>
@@ -185,18 +186,22 @@ How this helps when writing React components
 ```jsx
 if (isFavorit) {
   return (
-    <h2><StarIcon />{title}</h2>
+    <h2>
+      <StarIcon />
+      {title}
+    </h2>
   );
 }
 
-return (
-  <h2>{title}</h2>
-);
+return <h2>{title}</h2>;
 ```
 
 ```jsx
 return (
-  <h2>{isFavorite && <StarIcon />}{title}</h2>
+  <h2>
+    {isFavorite && <StarIcon />}
+    {title}
+  </h2>
 );
 ```
 ````
@@ -230,11 +235,11 @@ const nice = ({ title }) => console.log(title);
 
 const properties = {
   title: "Nice example",
-  details: "not important"
+  details: "not important",
 };
 
-boring(properties)
-nice(properties)
+boring(properties);
+nice(properties);
 ```
 
 ---
@@ -266,7 +271,7 @@ const score = {
 
 const updatedScore = {
   ...score,
-  teamC: 14
+  teamC: 14,
 };
 
 console.log(updatedScore);
@@ -280,7 +285,7 @@ Built in method to fetch resources
 
 ```js {monaco-run} {autorun:false}
 const request = fetch("https://jsonplaceholder.typicode.com/posts/1");
-const result = await request.then(response => response.json());
+const result = await request.then((response) => response.json());
 
 console.log(result);
 ```
@@ -294,20 +299,21 @@ console.log(result);
 Built in method to fetch or send resources
 
 ```js {monaco-run} {autorun:false}
-const request = fetch('https://jsonplaceholder.typicode.com/posts', {
-  method: 'POST',
+const request = fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
   body: JSON.stringify({
-    title: 'This is not the backend you were looking for',
-    body: 'How to use jsonplaceholder.typicode.com instead of your real backend',
+    title: "This is not the backend you were looking for",
+    body: "How to use jsonplaceholder.typicode.com instead of your real backend",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
-})
+});
 
-const result = await request.then(response => response.json());
+const result = await request.then((response) => response.json());
 console.log(result);
 ```
 
 <small abs-br m-6>see also [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch)</small>
+

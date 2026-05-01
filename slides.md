@@ -11,6 +11,7 @@ transition: fade
 aspectRatio: 16/9
 mdc: true
 remoteAssets: true
+download: true
 monacoRunAdditionalDeps:
   - react
   - react-dom
@@ -65,6 +66,3 @@ src: ./pages/11-loading-external-data.md
 src: ./pages/12-routing.md
 ---
 
----
-layout: end
----

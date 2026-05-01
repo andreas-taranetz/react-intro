@@ -1,0 +1,13 @@
+diff --git a/dist/export-Dv3OTWhO.mjs b/dist/export-Dv3OTWhO.mjs
+index 1cadaff308a96dc11d83d4dd049fac26026074ac..284492af8795af719ed6b977f5873ccd4eb54306 100644
+--- a/dist/export-Dv3OTWhO.mjs
++++ b/dist/export-Dv3OTWhO.mjs
+@@ -160,7 +160,7 @@ async function exportSlides({ port = 18724, total = 0, range: range$1, format =
+ 		}
+ 		{
+ 			const frames = page.frames();
+-			await Promise.all(frames.map((frame) => frame.waitForLoadState()));
++			await Promise.all(frames.map((frame) => frame.waitForLoadState(void 0, { timeout }).catch(() => {})));
+ 		}
+ 		{
+ 			const container = slide.locator("#mermaid-rendering-container");
