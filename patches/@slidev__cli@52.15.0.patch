@@ -7,7 +7,7 @@ index 1cadaff308a96dc11d83d4dd049fac26026074ac..284492af8795af719ed6b977f5873ccd
  		{
  			const frames = page.frames();
 -			await Promise.all(frames.map((frame) => frame.waitForLoadState()));
-+			await Promise.all(frames.map((frame) => frame.waitForLoadState(void 0, { timeout }).catch(() => {})));
++			await Promise.all(frames.map((frame) => frame.waitForLoadState(void 0, { timeout: 5000 }).catch(() => {})));
  		}
  		{
  			const container = slide.locator("#mermaid-rendering-container");
