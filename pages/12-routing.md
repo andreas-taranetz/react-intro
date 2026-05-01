@@ -15,6 +15,7 @@ stateDiagram
 ---
 layout: iframe-right
 url: https://reactrouter.com/
+scale: 0.8
 ---
 
 # React Router
@@ -24,6 +25,10 @@ url: https://reactrouter.com/
 Add to your project with
 
 `npm i react-router`
+
+<small>
+For client side rendered applications we'll use it in <strong>declarative mode</strong> where routes defined as JSX components.
+</small>
 
 ---
 

@@ -23,6 +23,7 @@ class: text-center
 ---
 layout: iframe-right
 url: https://andreas.taranetz.com
+scale: 0.92
 ---
 
 ## <code>> whoami</code>

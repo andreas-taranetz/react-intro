@@ -81,6 +81,7 @@ export const PokemonNames = () => {
 ---
 layout: iframe-right
 url: https://tanstack.com/query/latest
+scale: 0.8
 ---
 
 # TanStack Query

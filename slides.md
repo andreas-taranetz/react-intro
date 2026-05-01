@@ -66,3 +66,13 @@ src: ./pages/11-loading-external-data.md
 src: ./pages/12-routing.md
 ---
 
+---
+layout: center
+class: text-center
+---
+
+# Now go build something!
+
+Create a new React project and try it out:
+
+`npm create vite@latest awesome-app -- --template react`

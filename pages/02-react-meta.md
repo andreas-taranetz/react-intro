@@ -11,7 +11,7 @@ layout: section
 <v-clicks text-xl>
 
 - 📚 JavaScript library for building user interfaces (not only web)
-- ✨ Does **not require** a compiler or build step
+- ✨ Does **not require** a compiler or build step*
 - 🛠️ Developed by Meta <logos-meta p-0.2/>
 - 🗓️ Released 2013-05-29
 - ✅ Current stable version **19.2**
@@ -21,6 +21,10 @@ layout: section
     - Remix <logos-remix p-0.2/>
     - Tanstack Start <simple-icons-tanstack p-0.2/>
 </v-clicks>
+
+<p v-click=2 class="abs-br p-5 opacity-60 text-sm">
+  *almost all modern react projects uses a build process
+</p>
 
 ---
 
