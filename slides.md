@@ -12,6 +12,8 @@ aspectRatio: 16/9
 mdc: true
 remoteAssets: true
 download: true
+export:
+  waitUntil: load
 monacoRunAdditionalDeps:
   - react
   - react-dom
