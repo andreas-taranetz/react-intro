@@ -29,6 +29,8 @@ Add to your project with
 
 # Routing example
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `RouterModule`</small>
+
 ````md magic-move
 ```jsx
 import { BrowserRouter } from "react-router";

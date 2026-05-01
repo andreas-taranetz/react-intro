@@ -25,6 +25,8 @@ functions starting with `use...`
 
 🛠️ Build your own hooks using these built-in ones as primitives
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← Services (shared logic)</small>
+
 ---
 layout: iframe-right
 url: https://usehooks.com/

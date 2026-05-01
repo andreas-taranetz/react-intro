@@ -1,5 +1,7 @@
 # Loading external data 🛜
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `HttpClient`</small>
+
 ````md magic-move
 # Loading external data 🛜
 

@@ -74,3 +74,23 @@ layout: two-cols
 - Not opinionated
 
 </v-clicks>
+
+---
+
+### Coming from <logos-angular/>
+
+| Angular <logos-angular-icon/> | React <logos-react/> |
+|---|---|
+| `*ngIf` / `*ngFor` | ternary (`x ? y : z`) / `&&` / `.map()` |
+| `[(ngModel)]` | `value` + `onChange` |
+| `ngOnInit` / `ngOnDestroy` | `useEffect` |
+| Service (shared logic) | custom hooks |
+| Service (shared state) | context / Zustand* / Jotai* |
+| `HttpClient` | `fetch` / TanStack Query* |
+| `RouterModule` | React Router* |
+| Modules | no equivalent <small>(components all the way down)</small> |
+
+
+<p class="abs-tr p-5 opacity-60">
+*external library
+</p>

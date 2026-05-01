@@ -122,6 +122,8 @@ export const Feed = ({ postings }) => {
 
 A key is needed to help React identify which list item needs an update
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `*ngFor`</small>
+
 ::right::
 
 <div pl-5 flex flex-col gap-4>

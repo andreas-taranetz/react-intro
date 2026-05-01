@@ -168,6 +168,8 @@ return (
 
 </v-click>
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `*ngIf`</small>
+
 ---
 
 # Using return values of logical expressions ⏎
@@ -206,6 +208,8 @@ return (
 ````
 
 </div>
+
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `*ngIf`</small>
 
 ---
 

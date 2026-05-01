@@ -24,6 +24,7 @@ Instead of reacting on user events or state changes
 
 </v-clicks>
 
+<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `ngOnInit` / `ngOnDestroy`</small>
 <small abs-br m-6>see also [useEffect 🪝](https://react.dev/reference/react/useEffect)</small>
 
 ---
