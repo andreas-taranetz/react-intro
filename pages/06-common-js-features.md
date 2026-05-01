@@ -168,7 +168,7 @@ return (
 
 </v-click>
 
-<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `*ngIf`</small>
+<small abs-tr p-5 opacity-70><logos-angular-icon/> ← `*ngIf`</small>
 
 ---
 
@@ -209,7 +209,7 @@ return (
 
 </div>
 
-<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `*ngIf`</small>
+<small abs-tr p-5 opacity-70><logos-angular-icon/> ← `*ngIf`</small>
 
 ---
 

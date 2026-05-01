@@ -139,7 +139,7 @@ export const NewPost = () => {
 ```
 ````
 
-<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `[(ngModel)]`</small>
+<small abs-tr p-5 opacity-70><logos-angular-icon/> ← `[(ngModel)]`</small>
 <small abs-br m-6>see also [useState 🪝](https://react.dev/reference/react/useState)</small>
 
 ---
@@ -246,7 +246,7 @@ Feed --> Post2(Post<br/>💾)
 Feed --> Post3(Post<br/>💾)
 ```
 
-<small abs-tr p-5 opacity-60><logos-angular-icon/> ← Services (shared state)</small>
+<small abs-tr p-5 opacity-70><logos-angular-icon/> ← Services (shared state)</small>
 <small abs-br m-6>see also [useContext 🪝](https://react.dev/reference/react/useContext)</small>
 
 ---

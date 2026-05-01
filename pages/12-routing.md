@@ -34,7 +34,7 @@ For client side rendered applications we'll use it in <strong>declarative mode</
 
 # Routing example
 
-<small abs-tr p-5 opacity-60><logos-angular-icon/> ← `RouterModule`</small>
+<small abs-tr p-5 opacity-70><logos-angular-icon/> ← `RouterModule`</small>
 
 ````md magic-move
 ```jsx

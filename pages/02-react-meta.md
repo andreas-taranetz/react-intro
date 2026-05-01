@@ -22,7 +22,7 @@ layout: section
     - Tanstack Start <simple-icons-tanstack p-0.2/>
 </v-clicks>
 
-<p v-click=2 class="abs-br p-5 opacity-60 text-sm">
+<p v-click=2 class="abs-br p-5 opacity-70 text-sm">
   *almost all modern react projects uses a build process
 </p>
 
@@ -95,6 +95,6 @@ layout: two-cols
 | Modules | no equivalent <small>(components all the way down)</small> |
 
 
-<p class="abs-tr p-5 opacity-60">
+<p class="abs-tr p-5 opacity-70">
 *external library
 </p>
