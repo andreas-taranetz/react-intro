@@ -10,7 +10,7 @@ overrides:
 
 patchedDependencies:
   '@slidev/cli@52.15.0':
-    hash: 697700ff1f06ba77beb74f6d80f417d957aa87405712fd648278e578b2cceaf6
+    hash: a3740503e2c31f84cd03d31e4b85dda762c85c8d5b3107e51bc4217adeb28379
     path: patches/@slidev__cli@52.15.0.patch
 
 importers:
@@ -25,7 +25,7 @@ importers:
         version: 1.2.80
       '@slidev/cli':
         specifier: ^52.15.0
-        version: 52.15.0(patch_hash=697700ff1f06ba77beb74f6d80f417d957aa87405712fd648278e578b2cceaf6)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)
+        version: 52.15.0(patch_hash=a3740503e2c31f84cd03d31e4b85dda762c85c8d5b3107e51bc4217adeb28379)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -3879,7 +3879,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slidev/cli@52.15.0(patch_hash=697700ff1f06ba77beb74f6d80f417d957aa87405712fd648278e578b2cceaf6)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)':
+  '@slidev/cli@52.15.0(patch_hash=a3740503e2c31f84cd03d31e4b85dda762c85c8d5b3107e51bc4217adeb28379)(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.4)(@types/markdown-it@14.1.2)(@types/node@22.19.17)(@vue/compiler-sfc@3.5.33)(esbuild@0.27.7)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.13)(react@19.2.5)(tsx@4.20.6)':
     dependencies:
       '@antfu/ni': 30.1.0
       '@antfu/utils': 9.3.0
