@@ -73,7 +73,7 @@ export const Timer = () => {
       setSeconds(prevSeconds => prevSeconds + 1);
     }, 1000);
 
-  }, [setSeconds]);
+  }, [setSeconds]); // actually not necessary since setters are stable 
 
   return (
     <span>You have been seeing this component since {seconds} seconds.</span>
@@ -92,8 +92,28 @@ export const Timer = () => {
       setSeconds(prevSeconds => prevSeconds + 1);
     }, 1000);
 
+  }, []);
+
+  return (
+    <span>You have been seeing this component since {seconds} seconds.</span>
+  );
+};
+```
+
+
+```jsx
+import { useEffect, useState } from "react";
+
+export const Timer = () => {
+  const [seconds, setSeconds] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSeconds(prevSeconds => prevSeconds + 1);
+    }, 1000);
+
     return () => clearInterval(interval);
-  }, [setSeconds]);
+  }, []);
 
   return (
     <span>You have been seeing this component since {seconds} seconds.</span>

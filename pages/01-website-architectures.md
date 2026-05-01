@@ -32,9 +32,9 @@ clicks: 1
 
 ---
 
-<img m-auto src="https://imgs.xkcd.com/comics/installing.png">
+Modern websites became apps you re-download every time you open them
 
-But still, my scheme for creating and saving user config files and data locally to preserve them across reinstalls might be useful for--wait, that's cookies.
+<img m-auto src="https://imgs.xkcd.com/comics/installing.png">
 
 ---
 

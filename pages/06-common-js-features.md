@@ -7,7 +7,6 @@ layout: section
 these are not React features
 
 ---
-
 layout: two-cols
 ---
 

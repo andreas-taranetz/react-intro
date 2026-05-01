@@ -23,7 +23,7 @@ export const PokemonNames = () => {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
       .then(response => response.json())
       .then(data => setPokemonData(data))
-  }, [setPokemonData]);
+  }, []);
 
   return <span>There are currently {pokemonData.count} different Pokémon</span>;
 };
@@ -39,7 +39,7 @@ export const PokemonNames = () => {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
       .then(response => response.json())
       .then(data => setPokemonData(data))
-  }, [setPokemonData]);
+  }, []);
 
   if (!pokemonData) {
     return <span>Loading ...</span>;
@@ -61,7 +61,7 @@ export const PokemonNames = () => {
       .then(response => response.json())
       .then(data => setPokemonData(data))
       .catch(() => setIsError(true));
-  }, [setPokemonData, setIsError]);
+  }, []);
 
   if (isError) {
     return <span>Could not fetch them all 😭</span>;
