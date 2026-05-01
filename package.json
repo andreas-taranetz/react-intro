@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"start": "slidev --open",
-		"build": "slidev build --timeout 240000",
+		"build": "slidev build --timeout 480000",
 		"export": "slidev export"
 	},
 	"engines": {

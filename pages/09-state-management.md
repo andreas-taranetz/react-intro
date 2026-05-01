@@ -253,9 +253,11 @@ Feed --> Post3(Post<br/>💾)
 
 Many libraries exist for handling state outside of react
 
+* [Zustand](https://zustand-demo.pmnd.rs/)
+* [Jotai](https://jotai.org/)
 * [Redux](https://redux.js.org/)
 * [Mobx](https://mobx.js.org/README.html)
 * [Recoil](https://recoiljs.org/)
-* [Zustand](https://zustand-demo.pmnd.rs/)
-* [Jotai](https://jotai.org/)
 * ...
+
+Only look into those once you reach the limits of the built in options.
