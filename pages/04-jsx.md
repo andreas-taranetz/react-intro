@@ -47,6 +47,7 @@ layout: two-cols
 the old way
 
 <div mr-10>
+  
 ```js
 class MyComponent extends React.Component {
   render() {
