@@ -139,7 +139,7 @@ Expressions can also return React components as their result, e.g.:
 </small>
 
 ```
-{guests.map((g) => <Greet name={g.name}/>)
+{guests.map((g) => <Greet name={g.name}/>)}
 ```
 </div>
 
